@@ -1,0 +1,128 @@
+body {
+   /*d mistura de cores rgb (red,green e blue) e seus valores (0,0,0).Tem a função também hexadecimal #FFFF00(FF=red, FF=green e 00=blue) */
+   background: #ededed;
+   
+   /* Aqui posso alterar a fonte do texto */
+   font-family: 'Raleway', sans-serif;
+   
+   /* definindo cor para todo os parágrafos */
+   color: rgb(6, 6, 6);
+
+   /* removendo margem */
+   margin: 0;
+}
+
+.container {
+   width: 900px;
+   
+   /* Maneira de centralizar o elemento */
+   margin: 0 auto;
+}
+
+.profile {
+   /* centralizando o conteúdo dentro de <div> */
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.foto {
+   /* Definindo tamanho da foto */
+   width: 200px; 
+   
+   /* definindo borda na foto largura, tipo da borda que posso ver na documentção e cor */
+   border: 5px solid #ffffff; 
+   /* posso usar o mesmo exemplo abaixo.
+   border-width: 5px;
+   border-style: solid;
+   border=color: black; */  
+   
+   /* neste exemplo posso alterar a forma da borda em seus 4 cantos */
+   border-radius: 50% 50% 50% 50%; 
+
+   /* simplificado top =topo rigth= direita bottom= baixo left=esquerda */
+   margin: 30px 30px 0px 30px; 
+   
+   /* configura altura de alguma imagem ou foto */
+   height: 200px;
+   
+   /* personaliza algum efeito de sombra na imagem  0px =distancia na horizontal. 0px= distancia na vertical e 12px= desfoque da sombra e o ultimo é a cor da sombra*/
+   box-shadow: 0px 0px 12px #1c1c1c;
+} 
+
+h1 {
+   margin-top: 10px;
+   letter-spacing: -1px;
+   
+   /* fonte escolhida no google fonts */
+   font-family: 'PT Sans Narrow', sans-serif;
+  
+   /* alterar tamanho de fonte */
+   font-size: 35px;
+
+}
+
+h2 {
+   /* alterei o espaçamento na parte de cima em h2 */
+   margin-top: 0;
+   
+   /* altero o estilo da fonte */
+   font-style: italic;
+
+   /* altero cor da fonte */
+   color: rgb(46, 45, 45);
+
+   /* alterar espaçamento das letras */
+   letter-spacing: -1px;
+
+}
+
+h4 {
+   margin-bottom: 5px;
+   
+}
+
+h5 {
+   margin-top: 0;
+   margin-bottom: 0;
+   font-weight: 100;
+   font-style: italic;
+}
+
+p {
+   line-height: 20px;
+   margin-top: 5px;
+}
+
+.social-links {
+   /* nessa regra tiramos o underline dos links */
+   text-decoration: none;
+}
+
+.icones {
+   width: 20px;
+}
+
+.github {
+   margin: 0px 15px 0px 15px;
+}
+
+.j-list {
+   list-style: none;
+   /* aqui alinho as linhas */
+   padding-left: 25px;
+}
+
+.jobs-list {
+   /* aqui removo os pontilhos que fica na lista */
+   list-style:none;
+   padding-left: 20px;
+}
+
+.footer {
+   margin-top: 40px;
+   background-color: black;
+   color: #ededed;
+   text-align: center;
+   padding: 10px 0px;
+   font-family: Arial, Helvetica, sans-serif
+}

@@ -1,0 +1,31 @@
+body {
+   /*d mistura de cores rgb (red,green e blue) e seus valores (0,0,0).Tem a função também hexadecimal #FFFF00(FF=red, FF=green e 00=blue) */
+   background: #dfdfdf; 
+}
+
+p {
+   /* definindo cor para todo os parágrafos */
+   color: rgb(34, 34, 34); 
+}
+
+.foto {
+   /* Definindo tamanho da foto */
+   width: 200px; 
+   
+   /* definindo borda na foto largura, tipo da borda que posso ver na documentção e cor */
+   border: 5px solid #ffffff; 
+   /* posso usar o mesmo exemplo abaixo.
+   border-width: 5px;
+   border-style: solid;
+   border=color: black; */  
+   
+   /* neste exemplo posso alterar a forma da borda em seus 4 cantos */
+   border-radius: 50% 50% 50% 50%; 
+
+   /* neste exemplo posso escolher tipos da borda tanto pro lados e emcima e embaixo
+   border-top-style: dotted;
+   border-right-style: solid;
+   border-bottom-style: dotted;
+   border-left-style: solid; */
+}
+

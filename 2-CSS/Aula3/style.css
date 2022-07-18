@@ -1,0 +1,19 @@
+body {
+   background-image: url(technology-background.jpg); /* aqui adicionamos uma imagem salva da sua preferencia para o fundo de body*/ 
+   background-repeat: no-repeat; /* faz com que a imagem não se repita ao ampliar*/
+   /* background-position: 100% 10%; muda a posição */
+   background-position: right center; /* exemplo aqui, quero que a imagem fique no centro da pagina no lado direito */
+   background-size: cover; /* faz com que a imagem fique com todo o fundo sem se repetir */
+   background-attachment: fixed; /* a imagem fica fixa ao rolar a página para baixo */
+   
+
+}
+
+.foto {
+   width: 500px;
+}
+
+p {
+   color: rgb(34, 34, 34); /* definindo cor para todo os parágrafos */
+}
+

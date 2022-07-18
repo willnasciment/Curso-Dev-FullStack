@@ -1,0 +1,15 @@
+body {
+   background: Red; /* função que troca a cor de fundo de algo, ex vai ser no conteúdo body*/
+}
+
+.verde {
+   color: green; /* Aqui altero a cor de algum texto exemplo la no index *<h3 class="verde">Experiências </h3>*, caso quise-se em todos no lugar do .verde colocaria o h3 */
+}
+
+.foto {
+   width: 200px; /* definir largura da foto */
+}
+
+#titulo-principal { /* tag id="" exemplo no documento html */
+   color: yellow;
+}

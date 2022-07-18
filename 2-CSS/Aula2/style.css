@@ -1,0 +1,12 @@
+body {
+   background: #dfdfdf; /*d mistura de cores rgb (red,green e blue) e seus valores (0,0,0).Tem a função também hexadecimal #FFFF00(FF=red, FF=green e 00=blue) */
+}
+
+.foto {
+   width: 200px;
+}
+
+p {
+   color: rgb(34, 34, 34); /* definindo cor para todo os parágrafos */
+}
+
