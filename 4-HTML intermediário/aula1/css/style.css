@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }   
+
+
+
+body {
+    font-family: sans-serif;
+    
+}
+
+h1, h2, h3, h4, p {
+    margin-bottom: 15px;
+}
+
+.header {
+    /* imagem do google inserindo a url */
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190222/ourmid/pngtree-blue-atmospheric-background-image_50584.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 40px;
+    box-shadow: 0px 0px 10px rgb(15, 15, 15);
+    margin-bottom: 20px;
+}
+
+.container {
+    /* ficaram lado a lado */
+    display: flex;
+    margin-right: 20px;
+   
+    
+}
+
+.navbar {
+    width: 40%;
+    padding: 10px;
+    margin: 20px 30px 0px 0px ;
+    border-radius: 0px 30px;
+    
+    
+
+}
+
+.navbar ul {
+    /* removo os pontinhos */
+    list-style: none;
+}
+
+.navbar ul li {
+    width: 35%;
+    /* acrescento bordas em cada links */
+    border-radius: 10px 10px;
+    /* cor de fundo */
+    background-color: blue;
+    margin-bottom: 5px;
+    padding: 10px;
+    
+}
+
+.navbar ul li a {
+    /* remove underline dos links */
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+
+.content {
+    width: 70%;
+    background: #d8d8d8;
+    padding: 30px 30px;
+    border-radius: 30px 30px;
+    /* alongando para baixo */
+    height: 75vh;
+    margin: 20px -7px 20px 0;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    margin-top: auto;
+    bottom: 0;
+    left: 0;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
