@@ -1,0 +1,48 @@
+/* estilizando texto */
+
+h1 {
+    /* adiociona efeito de sombra no texto */
+    text-shadow: 2px 2px 20px blue;
+}
+
+p {
+    font-size: 30px;
+    color: green;
+    /* aqui deixa o texto cero sem rebarbas */
+    text-align: justify;
+    font-weight: bold;
+    font-style: italic;
+    /* algumas fontes podemos usar essa propriedade, dedixando ela mais espaçada: 
+    font-variant: small-caps; */
+    
+    /* deixa todas inicias do texto maiusculas: 
+    text-transform: capitalize; */
+
+    /* deixa todas letras do texto maiusculo:
+    text-transform: uppercase; */
+
+    /*deixa todas lestras do texto minusculas */
+    text-transform: lowercase; 
+    /* adiciona um espaço no começo do parágrafo,usado muito em blogs */
+    text-indent: 50px;
+
+    /* adiciona espaço em cada palavra */
+    word-spacing: 20px;
+    /* adiciona espaço entre as linhas do texto */
+    line-height: 50px;
+}
+
+/* elemento ancora link*/
+a {
+    /* remove o underline */
+    text-decoration: none;
+
+    /* deixa a linha no meio:
+    text-decoration: line-through; */
+
+    /* deixa a linha emcima:
+    text-decoration: overline; */
+
+    /* configura espaço entre cada letra */
+    letter-spacing: 20px;
+}

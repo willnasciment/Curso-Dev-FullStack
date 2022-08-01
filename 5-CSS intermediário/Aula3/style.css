@@ -1,0 +1,30 @@
+/* display-block, display: inline-block e display: inline; */
+
+/*
+a {
+    elementos inline não consigo mecher em altura ou largura: 
+    width: 150px;
+    height: 150px; 
+    
+    para funcionar uso a seguinte propriedade:
+    display: block; 
+
+    neste exemplo vai criar o bloco, mas em tipo inline (lado a lado) onde posso adiciona outro elemento do lado: 
+    display: inline-block; 
+
+} */
+
+/* deixar os links em inline lado a lado: */
+
+/* aqui posso adicionar um fundo com cor criando uma barra */
+ul {
+    background: grey;
+    padding: 20px;
+}
+
+ul li {
+    /* deixando os links lado a lado */
+    display: inline;
+    /* distanciar os links */
+    margin: 20px;
+}

@@ -1,0 +1,19 @@
+/* overflow- transbordar */
+
+div {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    /* deixa tudo dentro da caixa, com a barra  de rolagem:
+    overflow: scroll;
+    
+    nessa propriedade ele esconde a barra de rolagem do eixo-x, horizontal:
+    overflow-x: hidden; */
+    
+    /* aqui ele automaticamente vai entender que não precisa da barra de rolagem do eixo-x:border: */
+    overflow: auto;
+
+
+
+
+}

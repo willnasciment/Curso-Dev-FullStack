@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(226, 226, 226);
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    display: flex;
+    /* separando os itens */
+    justify-content: space-between;
+    /* centralizar os intens dentro da barra */
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    box-shadow: 0 0 10px black;
+    padding: 0 20px;
+}
+
+.logo {
+    color: white;
+    letter-spacing: -3px;
+    /* deixar as letras em minusculas */
+    text-transform: lowercase;
+}
+
+/* configuro aqui o nome (tudo) do index */
+.logo span:first-child {
+    color: rgb(81, 81, 226);;
+}
+
+/* configuro aqui o nome (.com) do index */
+.logo span:last-child {
+    font-size: 12px;
+    letter-spacing: normal;
+}
+
+.menu {
+    display: flex;
+    /* removendo os pontinhos */
+    list-style: none;
+}    
+
+.menu li {
+    /* deixando o submenu relativo ao pai dele */
+    position: relative;
+}
+
+
+
+/* adicionando padding na area inteira do link */
+.menu > li a {
+    padding: 17px;
+    /* ao passar o mouse as letras sempre serem brancas */
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    
+
+}
+
+/* mudando cor do link ao passar o mouse */
+.menu > li:hover {
+    background: rgb(81, 81, 226);
+}
+
+
+/* regra aplicadas para os 2 elementos, onde o submenu do submenu aparece ao passar o mouse*/
+.menu > li:hover > .submenu,
+.submenu > li:hover > .submenu {
+    display: block;
+}
+
+
+
+
+
+.submenu {
+    /* esconder o submenu */
+    display: none;
+    list-style: none;
+    /* deixar o submenu abaixo do pai dele que é a <li> */
+    position: absolute;
+    top: 51px;
+    left: 0;
+    background: rgb(81, 81, 226);
+    /* largura do submenu*/
+    min-width: 110%;
+}
+
+.submenu li:hover {
+    background: blue;
+}
+
+/* configurando a posiçao do submenu dentro da li submenu */
+.submenu li .submenu {
+    top: 0;
+    left: 100%;
+}

@@ -1,0 +1,65 @@
+/* pseudoclasse, dando estilo quando o usuário passar o mouse ou animações */
+
+a {
+    color: red;
+}
+
+/* usando (hover), ao passar o mouse vai ter algumas mudanças como: */
+a:hover {
+    color: green;
+    font-weight: bold;
+
+}
+
+/* exclusiva para links (visited), muda a cor do links após o usuário já ter acessado */
+a:visited {
+    color: black;
+}
+
+/* exclusivo para links (active), quando o link tiver ativo, aperta botão do mouse e segura */
+a:active {
+    color: blue;
+
+}
+
+.caixa {
+    /* deixar a caixa invisivel */
+    display: none;
+    width: 150px;
+    height: 150px;
+    background: black;
+}
+
+/* no exemplo caixa posso usar (hover) e mecher em qualquer propriedade ao passar o mouse */
+.caixa:hover {
+    background: green;
+    width: 20px;
+    height: 20px;    
+}
+
+a:hover + .caixa {
+    /* nessa configuração fiz com que ao passar o mouse a caixa aparece-se, pois em .caixa coloquei display: none; */
+    display: block;
+}
+
+/* first-child significa primeiro-filho, onde posso fazer alteração só no primeiro elemento da lista */
+ul li:first-child {
+    color: red;
+
+}
+
+/* aqui last-child vai aplicar a regra pro último elemento da lista */
+ul li:last-child {
+    color: blue;
+}
+
+/* também posso usar em outras propriedades exemplo a div */
+.exemplo p:first-child {
+    color: green;
+
+}
+
+/* caso eu queira mudar algum elemento específico uso:(nth-child) e coloco em número qual quero alterar: */
+.exemplo2 p:nth-child(2) {
+    color: blueviolet;
+}    

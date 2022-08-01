@@ -1,0 +1,41 @@
+/* aula combinadores */
+
+.exemplo {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.red p  {
+    color: red;
+}
+
+.margin {
+    margin: 50px;
+}
+
+/* caso for aplicar a mesma regra pra ambos, basta usar a vírgula, funciona também para class="" */
+h1, h2, h3 {
+    color: blue;
+}
+
+/* usando essa combinação posso estilizar todos os paragrafos da class="" abaixo:
+.exemplo2 p {
+    color: blue;
+}  */
+
+/* o simbolo > indica que vai aplicar a regra nos p que são filhos da class= exemplo2, veja comentário no index*/
+.exemplo2 > p {
+    color: blue;
+}
+
+/* neste exemplo eu uso o + para pegar os elementos que são irmãos no caso o primeiro que vem em seguida que não esta dentro da mesma div */
+.exemplo3 + p {
+    color: red;
+}
+
+/* usando ~ ele aplica a regra em todos os irmãos diretos  */
+.exemplo4 ~ p {
+    color: green;
+}

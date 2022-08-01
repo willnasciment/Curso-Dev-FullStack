@@ -1,0 +1,40 @@
+/* nesta aula, posicion fixed, relative e absolute */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.quadrado {
+    /* faz com que fique fixo conforme a pagina faça a rolagem para baixo */
+    position: fixed;
+    right: 50px;
+    /* para não ter nenhuma distancia entre o topo uso o valor 0. Uso botton para deixa-lo abaixo */
+    top: 50px;
+    width: 50px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.circulo {
+    /* posição onde o elemento fica onde esta dentro do seu ancestral o pai, se não tiver nenhum pai ele será posicionado no body do documento */
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+}
+
+p {
+    margin: 50px;
+    width: 300px;
+}

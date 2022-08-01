@@ -1,0 +1,52 @@
+/* pseudo-elementos, */
+
+
+/* nessa propriedade posso mudar a cor de seleção de texto do mouse. Apenas essas duas configurações posso fazer */
+::selection {
+    color: greenyellow;
+    background: black;
+}
+
+
+
+/* usando o ::, neste exemplo altero a primeira linha dentro de p */
+p::first-line {
+    color: orange;
+}
+
+/* (first-letter , altero a primewira letra do texto, neste exemplo mudei de cor e tamanho*/
+p::first-letter {
+    color: red;
+    font-size: 50px;
+
+}
+
+
+/* com before, uso para colocar alguma imagem *antes* do título */
+h1::before {
+    /* imagem copiada através do link*/
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1iQ0EcjiVsV1W3Vjn_MI2OIwCl5mHE8kTDQ&usqp=CAU);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    /* pra que a imagem fique ao lado do título */
+    display: inline-block;
+    /* propriedade obrigatória pra dar certo*/
+    content: "";
+    margin-right: 10px;
+}
+
+/* e after aplica a imagem *depois* */
+h1::after {
+    /* imagem copiada através do link*/
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1iQ0EcjiVsV1W3Vjn_MI2OIwCl5mHE8kTDQ&usqp=CAU);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    /* pra que a imagem fique ao lado do título */
+    display: inline-block;
+    /* propriedade obrigatória pra dar certo*/
+    content: "";
+    margin-left: 10px;
+}
+
