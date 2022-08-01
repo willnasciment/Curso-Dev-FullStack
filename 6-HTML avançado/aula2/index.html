@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--o método GET, envia os dados pela a url da página. Também tem o método POST onde é mais seguro e mais escondido-->
+    <form action="salvar.html" method="get">
+        
+        <!--label é uma tag semantica, diferente de placeholder, ela fica visível por fora-->
+        <label>Nome:</label>
+        
+        <!--o name"" é usado para renomeia cada campo, deixando visivel pro GET na url -->
+        <input name="nome" type="text" placeholder="Digite o seu nome">
+        
+        <br><br>
+
+        <label>E-mail:</label>
+        <input name="email" type="email" placeholder="Digite o seu e-mail">
+        
+        <br><br>
+        
+        <label>Senha:</label>
+        <input name="senha" type="password" placeholder="Digite sua senha">
+        
+        <br><br>
+        
+        <!--file do tipo upload para enviar um arquivo-->
+        <input type="file">
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
+        
+        
+        
+        
+
+    

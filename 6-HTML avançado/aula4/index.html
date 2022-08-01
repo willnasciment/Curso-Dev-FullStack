@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--o método GET, envia os dados pela a url da página. Também tem o método POST onde é mais seguro e mais escondido-->
+    <form action="salvar.html" method="get">
+        
+        <!--label é uma tag semantica, diferente de placeholder, ela fica visível por fora-->
+        <label>Nome:</label>
+        
+        <!--o name"" é usado para renomeia cada campo, deixando visivel pro GET na url -->
+        <input name="nome" type="text" placeholder="Digite o seu nome">
+        
+        <br><br>
+
+        <label>E-mail:</label>
+        <input name="email" type="email" placeholder="Digite o seu e-mail">
+        
+        <br><br>
+        
+        <label>Senha:</label>
+        <input name="senha" type="password" placeholder="Digite sua senha">
+        
+        <br><br>
+        
+        <!--file do tipo upload para enviar um arquivo-->
+        <input type="file">
+        
+        <br><br>
+
+        <label>Sexo:</label>
+        <br>
+        <!--radio posso usar para escolhas de opções usando uma bolinha.
+        uso value para que o resultado apareça na url-->
+        <input name="sexo" type="radio" value="masculino"> <label>Masculino</label> 
+        <br>
+        <input name="sexo" type="radio" value="feminino"> <label>Feminino</label>
+        <br> 
+        <input name="sexo" type="radio" value="nao definido"> <label>Prefiro não informar</label> 
+
+        <br><br>
+        
+        <!--parecido com radio, só que com o quadrado -->
+        <label>Habilidades:</label>
+        <br>
+        <!--id="" e for="" é ideal para a usabilidade, onde posso selecionar pelo nome e não só escolher o quadrado, por exemplo em um celular-->
+        <input name="habilidades" type="checkbox" value="html" id="html"> <label for="html">HTML</label>
+        <br>
+        <input name="habilidades" type="checkbox" value="css" id="css"> <label for="css">CSS</label>
+        <br>
+        <input name="habilidades" type="checkbox" value="javascript" id="javascript"> <label for="javascript">Javascript</label>
+        
+        <br><br>
+
+        <!--caixa de seleção-->
+        <label>Cidade:</label>
+        <br>
+        <select name="cidade">
+            <!--selected para deixar alguma opção selecionada, no caso abaixo ficará a opção selecione-->
+            <option selected value="">-- Selecione --</option>
+            <option value="sao paulo">São Paulo</option>
+            <option value="rio de janeiro">Rio de Janeiro</option>
+            <option value="minas gerais">Minas Gerais</option>
+            <option value="bahia">Bahia</option>
+        </select>
+
+        <br><br>
+
+        <label>Carro:</label>
+        <br>
+        <select>
+            <option selected value="">Selecione</option>
+            <!--optgroup, para organizar os elementos em uma categoria, exemplo abaixo:-->
+            <optgroup label="Honda">
+                <option value="civic">Civic</option>
+            </optgroup>
+            <optgroup label="Gm">
+                <option value="celta">Celta</option>
+            </optgroup>
+            <optgroup label="Hunday">
+                <option value="hb20">Hb20</option>
+            </optgroup>
+            <optgroup label="Volkswagen">
+                <option value="gol">Gol</option>
+            </optgroup>
+        </select>
+
+        <br><br>
+
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
+
+        
+        
+        
+        
+
+    
+        
