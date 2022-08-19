@@ -1,0 +1,6 @@
+/* VARIÁVEIS, usada para simplificar as alterações do site fazendo com que se repita por todo o documento. exemplo abaixo alterando a cor de determinado e espaçamento elemento */
+:root {
+    --color-primary: rgb(2, 2, 214);
+
+    --spacing: 16px;
+}

@@ -1,0 +1,26 @@
+/* VARIÁVEIS, usada para simplificar as alterações do site fazendo com que se repita por todo o documento. exemplo abaixo alterando a cor de determinado e espaçamento elemento */
+:root {
+    --color-primary: rgb(2, 2, 214);
+
+    --spacing: 16px;
+}
+
+
+/* var(), var de variável e dentro do parenteses coloco o valor que quero alterar */
+h1 {
+    color: var(--color-primary);
+}
+
+h2 {
+    color: rgb(87, 4, 4);
+    margin: var(--spacing);
+}
+
+p {
+    color: var(--color-primary);
+}
+
+button {
+    background: rgb(87, 4, 4);
+    color: white;
+}

@@ -1,0 +1,7 @@
+/* desse modo fica mais organizado, importando um ou mais arquivos css. colocando no index css/style*/
+@import "variaveis.css";
+@import "comuns.css";
+
+
+
+

@@ -1,0 +1,39 @@
+/* Transform, transformação posso ver todas em w3schools*/
+
+body {
+    margin: 100px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    transition-duration: 500ms;
+    
+    /* faz com que o rotate configurado lá em baixo não gire do ponto de eixo do meio 20% eixo x e 40% eixo y */ 
+    transform-origin: 20% 40%;
+   
+    
+}
+
+.box:hover {
+    background-color: red;
+   /* que o elemento gire, por exemplo abaixo um valor de 360 graus: */
+    transform: rotate(360deg ); 
+   
+   
+    /* muda o elemento de lugar ex: 50px pra esquerda e 100px do topo:
+    transform: translate(50px, 100px); 
+
+    
+
+    /* transform: scale(2, 2); o scale aumenta o elemento por exemplo no valor 2,2, é o dobro de width e height dedterminado lá em cima no box. 
+    
+    transform: scaleX(2); com o x aumento apenas a largura.
+    
+    transform: scaley(2); aumento apenas a altura. 
+
+    transform: skew(50deg, 50deg); distorce o elemento e assim como scaley tem a opção de x e y 
+
+    transform: matrix(1, -0.3, 0, 1, 0, 0); combina todos acima, Os parâmetros são os seguintes: matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY()) */
+}

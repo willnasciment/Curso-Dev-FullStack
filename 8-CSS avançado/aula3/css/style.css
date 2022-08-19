@@ -1,0 +1,36 @@
+/* tipos de filtros aplicado em qualquer elemento do conteúdo, encontrados no w3schools: 
+none | blur() | brightness() | contrast() | drop-shadow() | grayscale() | hue-rotate() | invert() | opacity() | saturate() | sepia() | url(); */
+
+img {
+    /* brilho do elemento */
+    filter: brightness(10%);
+
+    /*efeito de borrão: 
+    filter: blur(5px); */
+
+    /* filter: contrast(10%); efeito de contraste */
+
+    /* Aplique um efeito de sombra à imagem: */
+    filter: drop-shadow(8px 8px 10px gray);
+
+    /*Converta a imagem para tons de cinza: */
+    filter: grayscale(50%);
+
+    /*Aplique uma rotação de matiz na imagem:
+    filter: hue-rotate(90deg); */
+
+    /* filter: invert(100%); Inverta as amostras na imagem: */
+
+    /* filter: opacity(30%); Defina o nível de opacidade da imagem: */
+
+    /* filter: saturate(800%); Sature a imagem: */
+
+    /* filter: sepia(100%); Converta a imagem para sépia:*/
+
+    /*filter: contrast(200%) brightness(150%); usando vários filtros */
+
+
+
+}
+
+

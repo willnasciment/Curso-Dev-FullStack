@@ -1,0 +1,13 @@
+/* var(), var de variável e dentro do parenteses coloco o valor que quero alterar */
+h1 {
+    color: var(--color-primary);
+}
+
+h2 {
+    color: rgb(87, 4, 4);
+    margin: var(--spacing);
+}
+
+p {
+    color: var(--color-primary);
+}

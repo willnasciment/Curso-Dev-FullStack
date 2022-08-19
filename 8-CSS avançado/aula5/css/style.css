@@ -1,0 +1,33 @@
+/* transition, transição */
+
+body {
+    margin: 100px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    
+    /*duração do hover, é recomendável usar em ms :
+    transition-duration: 500ms;
+    
+    aqui determino qual elemento de hover quero manter a configuração:
+    transition-property: width; 
+    
+    coloco *transition-timing-function: ease * e no devtouls vou com o mouse em ease e escolho o movimento que eu quiser:
+    transition-timing-function: cubic-bezier(0.69, 0.18, 0.31, 0.96);
+    
+    determina quanto tempo de atraso para começar a animação: 
+    transition-delay: 500ms; 
+
+    e aqui é a junção de todos acima em uma só linha */
+    transition: width 500ms cubic-bezier(0.69, 0.18, 0.31, 0.96) 500ms;
+    
+}
+
+.box:hover {
+    width: 500px;
+    background-color: red;
+
+}
